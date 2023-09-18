@@ -1,5 +1,4 @@
-
-let resultado = Somar (11, 0)
+let resultado = Somar (11, 25)
 
 function Somar (Vitorias , Derrotas){
 
@@ -44,25 +43,25 @@ if (resultado < 10 ){
 
     Ferro()
 
-}   else if ( 10 > resultado || resultado <=20 ){
+}   else if ( 10 > resultado && resultado <=20 ){
 
             Bronze()
 
 }
-            else if ( 20 > resultado || resultado <=50 ){
+            else if ( 20 > resultado && resultado <=50 ){
 
                     Prata()
     
 }               
-                else if ( 50 > resultado || resultado<=80 ){
+                else if ( 50 > resultado && resultado<=80 ){
 
                         Ouro()
 }
-            else if ( 80 > resultado || resultado <=90 ){
+            else if ( 80 > resultado && resultado <=90 ){
 
                     Diamante()
 }
-        else if ( 90 > resultado || resultado <=100 ){
+        else if ( 90 > resultado && resultado <=100 ){
 
                 Lendário()
 }
@@ -70,4 +69,3 @@ else if ( resultado > 100 ){
 
         Imortal()
 }
-   
